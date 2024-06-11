@@ -1,3 +1,4 @@
+import Navigation from "@/components/navigation"
 import type { Metadata } from "next"
 import "./globals.css"
 
@@ -14,7 +15,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="flex min-h-screen flex-col items-center justify-between">
+        <Navigation />
+        {children}
+        <footer className="mt-auto py-4 text-[0.8rem]">
+          2024 Song Yongseung
+        </footer>
+      </body>
     </html>
   )
 }
