@@ -1,4 +1,6 @@
-export default async function fetchPosts() {
+import { Post } from "@/types/types"
+
+export default async function Posts() {
   const response = await fetch("http://localhost:3000/api/posts", {
     cache: "no-store",
     method: "GET",
@@ -8,5 +10,14 @@ export default async function fetchPosts() {
     throw new Error("Failed to fetch posts")
   }
 
-  return <div>씨발!</div>
+  return (
+    <ul>
+      {data.map((post: Post) => (
+        <li key={post.sys.id}>
+          <h3>{post.fields.postTitle.values}</h3>
+          <div></div>
+        </li>
+      ))}
+    </ul>
+  )
 }

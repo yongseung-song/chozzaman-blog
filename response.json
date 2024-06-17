@@ -1,123 +1,221 @@
-{
-  "sys": {
-    "type": "Array"
-  },
-  "total": 1,
-  "skip": 0,
-  "limit": 100,
-  "items": [
-    {
-      "metadata": {
-        "tags": []
+[
+  {
+    "metadata": {
+      "tags": []
+    },
+    "sys": {
+      "space": {
+        "sys": {
+          "type": "Link",
+          "linkType": "Space",
+          "id": "xhjahblv0jgg"
+        }
       },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "xhjahblv0jgg"
-          }
-        },
-        "id": "nAUNjY1i8zUpl284FjeDL",
-        "type": "Entry",
-        "createdAt": "2024-06-11T09:23:14.687Z",
-        "updatedAt": "2024-06-11T09:23:14.687Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "blogPost"
-          }
-        },
-        "locale": "en-US"
+      "id": "12ZFNtQAr3tEvLF186VoXa",
+      "type": "Entry",
+      "createdAt": "2024-06-17T06:47:28.343Z",
+      "updatedAt": "2024-06-17T07:43:36.876Z",
+      "environment": {
+        "sys": {
+          "id": "master",
+          "type": "Link",
+          "linkType": "Environment"
+        }
       },
-      "fields": {
-        "postTitle": "first post ever on this blog",
-        "postContent": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Hi contentful!",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "heading-1"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "this is the very first post of my blog. Nah...",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "dunno what to write. maybe some codes?",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [
-                    {
-                      "type": "code"
+      "revision": 2,
+      "contentType": {
+        "sys": {
+          "type": "Link",
+          "linkType": "ContentType",
+          "id": "blogPost"
+        }
+      },
+      "locale": "en-US"
+    },
+    "fields": {
+      "postTitle": "third post",
+      "postContent": {
+        "data": {},
+        "content": [
+          {
+            "data": {
+              "target": {
+                "metadata": {
+                  "tags": []
+                },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "xhjahblv0jgg"
                     }
-                  ],
-                  "value": "function FirstPost (content: string) {\n  return <div> {content} </div>\n}",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [
-                    {
-                      "type": "code"
+                  },
+                  "id": "RMHBXpmzUQhCnujid2At7",
+                  "type": "Asset",
+                  "createdAt": "2024-06-17T07:43:31.427Z",
+                  "updatedAt": "2024-06-17T07:43:31.427Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
                     }
-                  ],
-                  "value": "",
-                  "nodeType": "text"
+                  },
+                  "revision": 1,
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "title": "A buddhist photo ",
+                  "description": "as written above",
+                  "file": {
+                    "url": "//images.ctfassets.net/xhjahblv0jgg/RMHBXpmzUQhCnujid2At7/f878ab34e88850f1b6003d30ea4d8da8/______2.png",
+                    "details": {
+                      "size": 774302,
+                      "image": {
+                        "width": 570,
+                        "height": 800
+                      }
+                    },
+                    "fileName": "입상2.png",
+                    "contentType": "image/png"
+                  }
                 }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
-        },
-        "postTags": ["React", "TypeScript", "Frontend"],
-        "postCreationDate": "2024-06-11"
-      }
+              }
+            },
+            "content": [],
+            "nodeType": "embedded-asset-block"
+          },
+          {
+            "data": {},
+            "content": [
+              {
+                "data": {},
+                "marks": [],
+                "value": "writing a new post is extremely cumbersome here.",
+                "nodeType": "text"
+              }
+            ],
+            "nodeType": "paragraph"
+          }
+        ],
+        "nodeType": "document"
+      },
+      "postTags": ["buddhism"],
+      "postCreationDate": "2024-06-17"
     }
-  ]
-}
+  },
+  {
+    "metadata": {
+      "tags": []
+    },
+    "sys": {
+      "space": {
+        "sys": {
+          "type": "Link",
+          "linkType": "Space",
+          "id": "xhjahblv0jgg"
+        }
+      },
+      "id": "nAUNjY1i8zUpl284FjeDL",
+      "type": "Entry",
+      "createdAt": "2024-06-11T09:23:14.687Z",
+      "updatedAt": "2024-06-11T09:23:14.687Z",
+      "environment": {
+        "sys": {
+          "id": "master",
+          "type": "Link",
+          "linkType": "Environment"
+        }
+      },
+      "revision": 1,
+      "contentType": {
+        "sys": {
+          "type": "Link",
+          "linkType": "ContentType",
+          "id": "blogPost"
+        }
+      },
+      "locale": "en-US"
+    },
+    "fields": {
+      "postTitle": "first post ever on this blog",
+      "postContent": {
+        "data": {},
+        "content": [
+          {
+            "data": {},
+            "content": [
+              {
+                "data": {},
+                "marks": [],
+                "value": "Hi contentful!",
+                "nodeType": "text"
+              }
+            ],
+            "nodeType": "heading-1"
+          },
+          {
+            "data": {},
+            "content": [
+              {
+                "data": {},
+                "marks": [],
+                "value": "this is the very first post of my blog. Nah...",
+                "nodeType": "text"
+              }
+            ],
+            "nodeType": "paragraph"
+          },
+          {
+            "data": {},
+            "content": [
+              {
+                "data": {},
+                "marks": [],
+                "value": "dunno what to write. maybe some codes?",
+                "nodeType": "text"
+              }
+            ],
+            "nodeType": "paragraph"
+          },
+          {
+            "data": {},
+            "content": [
+              {
+                "data": {},
+                "marks": [
+                  {
+                    "type": "code"
+                  }
+                ],
+                "value": "function FirstPost (content: string) {\n  return <div> {content} </div>\n}",
+                "nodeType": "text"
+              }
+            ],
+            "nodeType": "paragraph"
+          },
+          {
+            "data": {},
+            "content": [
+              {
+                "data": {},
+                "marks": [
+                  {
+                    "type": "code"
+                  }
+                ],
+                "value": "",
+                "nodeType": "text"
+              }
+            ],
+            "nodeType": "paragraph"
+          }
+        ],
+        "nodeType": "document"
+      },
+      "postTags": ["React", "TypeScript", "Frontend"],
+      "postCreationDate": "2024-06-11"
+    }
+  }
+]
