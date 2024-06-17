@@ -1,5 +1,11 @@
+import Posts from "@/components/posts"
+
 function Blog() {
-  return <div>this is blog!</div>
+  return (
+    <div>
+      <Posts />
+    </div>
+  )
 }
 
 export default Blog
